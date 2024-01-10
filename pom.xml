@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.demansh</groupId>
     <artifactId>eztrace</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A simple tool to trace java apps</description>
     <url>https://github.com/demansh/eztrace</url>
@@ -24,7 +24,7 @@
         <developerConnection>
             scm:git:git@github.com:demansh/eztrace.git
         </developerConnection>
-        <tag>HEAD</tag>
+        <tag>eztrace-0.0.2</tag>
     </scm>
     <distributionManagement>
         <snapshotRepository>
