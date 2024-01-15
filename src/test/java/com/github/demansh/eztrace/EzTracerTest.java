@@ -1,3 +1,6 @@
+package com.github.demansh.eztrace;
+
+import com.github.demansh.eztrace.EzTracer;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

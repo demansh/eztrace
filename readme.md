@@ -29,13 +29,13 @@ Code with tracing:
 ```
 public class IterativeCaller {
     public void iteration() {
-        EzTracer.start();
+        EzTracer.start();   //start tracing
         EzTracer.lap("RunLoop", () -> {
             for (int i = 0; i < 3; i++) {
-                EzTracer.lap("Calculator#calculate", () -> new Calculator().calculate());
+                EzTracer.lap("Calculator#calculate", () -> new Calculator().calculate()); //do another lap
             }
         });
-        EzTracer.stop();
+        EzTracer.stop();    //stop tracing
     }
 
     private static class Calculator {
